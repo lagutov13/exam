@@ -1,0 +1,188 @@
+body{
+  background-color: #f7d590;
+  overflow-x: hidden;
+}
+
+.topnav {
+  background-color: #f1c05e;
+  overflow: hidden;
+  margin-bottom: 8px;
+  border-radius: 5px;
+}
+
+.topnav a {
+  float: left;
+  color: #616767;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #c29741;
+  color: #ffffff;
+}
+
+#adress{
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(index/img/coffee_shop.jpg);
+  background-attachment: scroll;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#inadress{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 72pt;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+#main_feed{
+  background-color: #f1c05e;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 65%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+div#main_feed > div{
+  background-color: rgb(243, 224, 186);
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+div#main_feed > div > h2{
+  border-bottom: 1px solid brown;
+}
+
+div#main_feed > div > table,td{
+  border: 1px solid black;
+  width: 50%;
+}
+
+#bottom{
+  background-color: #c2d7d1;
+  width: 99%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+#bottom > div{
+  padding: 5px;
+  margin: 6px;
+}
+
+#indicator{
+  background: #b36711; /* Цвет фона */
+  width: 15px; /* Ширина кнопки */
+  height: 15px; /* Высота */
+  border-radius: 30px;
+  display:inline-block;
+}
+
+#photos{
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#photos > img{
+  width: 99%;
+  margin: 10px;
+  margin-left: 0px;
+  border-radius: 10px;
+}
+
+.statya_feed{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: absolute;
+  top: 15%;
+  left: 13%;
+  background-color: #f1c05e;
+  width: 75%;
+  border-radius: 15px;
+  padding: 10px;
+  height: 50%;
+}
+
+.statya{
+  border-radius: 15px;
+  background-color: #f7d590;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: flex-end;
+  transition: filter 1s;
+  filter: brightness(50%);
+}
+
+.statya:hover{
+  filter: brightness(100%);
+}
+
+.statya#amer{
+  background-image: url(coffee/img/unnamed.jpg);
+  color: white;
+}
+
+.statya#amer{
+  background-image: url(coffee/img/unnamed.jpg);
+  color: white;
+}
+
+.statya#arab{
+  background-image: url(coffee/img/arab.jpg);
+  background-position: center;
+  background-size: 40%;
+  background-attachment: fixed;
+  color: white;
+}
+
+.statya#desert{
+  background-image: url(coffee/img/tiramisu.jpg);
+  background-size: 180%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  color: white;
+}
+
+.statya > a {
+  color: white;
+  font-size: 20pt;
+}
+
+.paragraph{
+  position: absolute;
+  top: 15%;
+  left: 17%;
+  border-radius: 15px;
+  padding: 10px;
+  width: 65%;
+  background-color: #f1c05e;
+  text-align: justify;
+}
+
+.paragraph > img{
+  border-radius: 15px;
+  float: right;
+  margin: 10px;
+}
